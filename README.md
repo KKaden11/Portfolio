@@ -315,6 +315,7 @@ In the front matter, you can also define things like a title and description for
   title: Jupyter Python Sample
   description: Example Blog!!!  This shows code and notes from hacks.
   type: ccc
+  courses: { csa: {week: 5} }
   ---
   ```
 
