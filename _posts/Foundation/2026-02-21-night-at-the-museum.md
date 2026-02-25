@@ -19,3 +19,10 @@ This is a new blog post titled Night at the Museum.
 - If you are in CSP or CSA, create a SQL database to store input data and connect it to your project.
 - Review your UI code and remove extra or unnecessary elements to keep the design clean.
 - Have playtesters or users try your app, collect feedback, and improve the project into a polished final version.
+
+### Clicker Game
+
+- Built the layout with HTML and styled it in CSS.
+- Used JavaScript to count clicks and update the score live.
+- Added upgrades so each click can earn more points.
+- Tested the game and adjusted values to keep it balanced and fun.
