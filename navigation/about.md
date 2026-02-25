@@ -58,12 +58,7 @@ Flags are made using Wikipedia images
 
     // 2. Define a JavaScript object for our http source and our data rows for the Living in the World grid
     var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
-    var living_in_the_world = [
-        {"flag": "0/01/Flag_of_California.svg", "greeting": "Hey", "description": "California - forever"},
-        {"flag": "b/b9/Flag_of_Oregon.svg", "greeting": "Hi", "description": "Oregon - 9 years"},
-        {"flag": "b/be/Flag_of_England.svg", "greeting": "Alright mate", "description": "England - 2 years"},
-        {"flag": "e/ef/Flag_of_Hawaii.svg", "greeting": "Aloha", "description": "Hawaii - 2 years"},
-    ];
+    var living_in_the_world = 
 
     // 3a. Consider how to update style count for size of container
     // The grid-template-columns has been defined as dynamic with auto-fill and minmax
@@ -111,15 +106,16 @@ Here are some places I have visited
 
 ### Culture, Family, and Fun
 
-Everything for me, as for many others, revolves around family and faith.
+Everything for me revolves around family and friends.
 
-- My mother told me that I was Danish, English. and Irish, here is my researched [family tree]({{site.baseurl}}/images/about/familytree.png)
+- My mom told me that I was German, English. and Persian.
 - I have a little brother, as well as a mom and dad. On my moms side, my I have a grandma, grandpa, great grandma, and a couple aunts and uncles, as well as cousins. On my dads sides, I have multiple uncles and aunts.
 - The gallery of pics has some of my family, fun, culture and faith memories.
 
 <comment>
 Gallery of Pics, scroll to the right for more ...
 </comment>
+
 <div class="image-gallery">
   <img src="{{site.baseurl}}/images/about/missionary.jpg" alt="Image 1">
   <img src="{{site.baseurl}}/images/about/john_tamara.jpg" alt="Image 2">
