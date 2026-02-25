@@ -58,6 +58,11 @@ Hi! My name is Kaden
             Night at the Museum
         </div>
     </a>
+    <a href="{{site.baseurl}}/click-game.html" style="text-decoration: none;">
+        <div style="background-color: #5A148C; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            Clicker Game
+        </div>
+    </a>
 </div>
 
 <br>
