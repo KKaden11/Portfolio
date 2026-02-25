@@ -1,0 +1,28 @@
+---
+layout: default
+title: Click Game
+permalink: /click-game/
+---
+
+<style>
+  #box {
+    width: 200px;
+    height: 200px;
+    margin: 60px auto;
+    border: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: 700 40px/1 sans-serif;
+    user-select: none;
+    cursor: pointer;
+  }
+</style>
+
+<div id="box">0</div>
+
+<script>
+  let clicks = 0;
+  const box = document.getElementById("box");
+  box.onclick = () => box.textContent = ++clicks;
+</script>
